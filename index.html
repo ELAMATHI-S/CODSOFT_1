@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Portfolio</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<div class="logo">Web Developer
+		<nav>
+			<ul>
+				<li><a href="#about">About</a></li>
+				<li><a href="#skills">Skills</a></li>
+				<li><a href="#projects">Projects</a></li>
+                <li><a href="#resume">Resume</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	<section id="about">
+		<h1>About Me</h1>
+		<p>Welcome to my portfolio!</p>
+		<img src="B:\PROJECT\proto\image.jpeg">
+	</section>
+	<section id="skills">
+		<h1>Skills</h1>
+		<ul>
+			<li><h3>HTML</h3><img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="HTML Logo" width="100">
+            </li>
+			<li><h3>CSS</h3><img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" alt="CSS Logo" width="100">
+            </li>
+			<li><h3>JavaScript</h3><img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="JavaScript Logo" width="100">
+            </li>
+			<li><h3>React</h3><img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="React Logo" width="100">
+            </li>
+			<li><h3>Angular</h3><img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/Angular_full_color_logo.svg" alt="Angular Logo" width="100">
+            </li>
+		</ul>
+	</section>
+	<section id="projects">
+		<h1>Projects</h1>
+		<div class="project">
+			<h2>Personal Website</h2>
+			<img src="B:\PROJECT\proto\personal profile.avif">
+			<h3>Description: </h3><p>This is my personal website, showcasing my skills and experience as a web developer. It's a responsive website built with HTML, CSS, and JavaScript, featuring a clean design and smooth user experience. The website includes sections for my about page, skills, projects, and contact information.</p>
+                
+               <h3> Features:</h3>
+                
+                 <p> Responsive design for desktop, tablet, and mobile devices</p>
+                <p>Interactive animations and effects
+                <p> Clean and modern design</p>
+                <p>Easy navigation and user-friendly interface</p>
+                
+			<a href="https://your-website.com" target="_blank">Live Site</a>
+		</div>
+		<div class="project">
+			<h2>E-commerce Website</h2>
+			<img src="B:\PROJECT\proto\e-commerce image.jpeg">
+			<h3> Description:</h3><p> This is a fully functional e-commerce website built with React and Shopify API. It features a modern design, easy navigation, and a seamless checkout process. The website includes features like product filtering, sorting, and searching, as well as customer reviews and ratings.</p>
+                
+               <h3> Features:</h3>
+                
+                <p> Fully responsive design for desktop, tablet, and mobile devices</p>
+                <p>Easy product search and filtering</p>
+                <p>Secure checkout process with payment gateway integration</p>
+                <p>Customer reviews and ratings system</p>
+                <p>Admin dashboard for managing products, orders, and customers</p>
+                
+                Note: These descriptions are just examples and you can customize them to fit your specific needs and the features of your websites.</p>
+			<a href="https://your-ecommerce-website.com" target="_blank">Live Site</a>
+		</div>
+	</section>
+    <section id="resume">
+        <h1>Resume</h1>
+         <p>Name:zzz</p>
+         <p>Address:xxx</p>
+         <p>Phone:999-999-9999</p>
+    </section>
+	<section id="contact">
+		<h1>Contact Me</h1>
+		<p>Get in touch with me:</p>
+		<ul>
+			<li><a href="mailto:your@email.com">Email</a></li>
+			<li><a href="https://linkedin.com/your-profile" target="_blank">LinkedIn</a></li>
+			<li><a href="https://github.com/your-username" target="_blank">GitHub</a></li>
+		</ul>
+	</section>
+	<footer>
+		<p>&copy; 2023 zzz</p>
+	</footer>
+    <script>
+        function scrollPage() {
+            window.scrollBy(0, 1);
+            if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
+                window.scrollTo(0, 0); 
+            }
+        }
+        setInterval(scrollPage, 50);
+    </script>
+</body>
+</html>
